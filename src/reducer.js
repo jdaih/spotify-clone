@@ -3,6 +3,8 @@ export const initialState = {
     playlist: [],
     playing: false,
     item: null,
+}
+
 
 const reducer = (state, action) => {
     switch(action.type) {
