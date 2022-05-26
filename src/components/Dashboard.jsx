@@ -12,7 +12,7 @@ const Dashboard = ({spotify}) => {
         <div className='dashboard'>
           <div className='dashboard_body'>
             <Sidebar/>
-            <Body/>
+            <Body spotify={spotify}/>
           </div>
           <Header/>
           <Footer/>
@@ -86,5 +86,27 @@ const Container = styled.div`
     background-color: #282828;
     padding: 20px;
   }
-  
+  .header {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .header_left {
+    background-color: white;
+    color: #b3b3b3;
+    border-radius: 30px;
+    min-width: 70px;
+    padding: 8px;
+    display: flex;
+    flex: 0.3;
+    align-items: center;  
+  }
+  .header_left input {
+    border: none;
+    width: 100%;
+  }
+  .header_right {
+    display: flex;
+    align-items: center;  
+  }
 `

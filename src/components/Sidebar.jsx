@@ -1,10 +1,9 @@
 import React from "react"
 import SidebarOption from './SidebarOption'
 import { useDataLayerValue } from '../DataLayer'
-import HomeIcon from '@mui/icons-material/Home';
 
 const Sidebar = () => {
-  const [{ playlists }, dispatch] = useDataLayerValue();
+  const [{ playlists }] = useDataLayerValue();
     return(
         <div className='sidebar'>
          <div className="sidebar_logo">
