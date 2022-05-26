@@ -4,7 +4,7 @@ Spotify is a popular audio streaming service with over 422 million active users.
 ## Netlify Deployment
 https://daih-spotify-clone.netlify.app
 
-## Link to the API you plan to use
+## Link to the API used
 [https://developer.spotify.com/documentation/web-api/](url)
 
 
