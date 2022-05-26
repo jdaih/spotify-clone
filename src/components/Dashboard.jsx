@@ -34,7 +34,15 @@ const Container = styled.div`
     color: #b3b3b3;
     height: 100vh;
     flex: 0.2;
-}
+  }
+  .footer {
+    position:fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background-color: #282828;
+    padding: 20px;
+  }
 `
 
 export default Dashboard
