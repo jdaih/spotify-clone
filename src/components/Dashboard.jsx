@@ -36,11 +36,33 @@ const Container = styled.div`
     padding: 30px;
     flex: 0.8;
   }
+  .body_content {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+  }
+  .body_content img {
+    height: 20vw;
+    margin: 0 20 px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5)
+  }
+  .body_text {
+    padding: 10px;
+    flex: 1;
+  }
+  .body_text h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+  }
+  .body_text p {
+    font-size: 14px;
+  }
 
   .sidebar{
     background-color: black;
     color: #b3b3b3;
-    height: 100%;
+    height: 100;
     min-width: 210px;
     padding-left: 10px;
     padding-right: 10px;
@@ -108,5 +130,32 @@ const Container = styled.div`
   .header_right {
     display: flex;
     align-items: center;  
+  }
+  .songRow {
+    display:flex;
+    margin-left: 20px;
+    padding: 20px;
+    align-items: center;
+    color: white;
+  }
+  .songRow:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+  }
+  .songRow_info {
+    margin-left: 20px;
+  }
+  .songRow_info h1 {
+    font-size: 16px;
+  }
+  .songRow_info p {
+    font-size: 14px;
+    margin-top: 3px;
+    color: #b3b3b3;
+  }
+  .songRow_album{
+    height: 40px;
+    width: 40px;
   }
 `

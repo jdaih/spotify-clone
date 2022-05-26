@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 
 const Footer = () =>{
@@ -11,7 +11,7 @@ const Footer = () =>{
             <div className='footer_center'>
                <PlayCircleIcon/>
             </div>
-            
+
             <div className='footer_right'>
                  <p> Volume Slider </p>
             </div>
