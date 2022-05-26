@@ -5,8 +5,10 @@ import Header from './Header'
 
 const Dashboard = () => {
     return (
-        <div>
-    
+        <div className='dashboard'>
+          <Header/>
+          <Sidebar/>
+          <Footer/>
         </div>
   )
 }
