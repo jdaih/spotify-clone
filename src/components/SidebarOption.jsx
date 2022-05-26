@@ -1,6 +1,6 @@
 import React from "react"
 
-function SidebarOption({title, icon}) {
+function SidebarOption({title}) {
     return <div className ='sidebarOption'>
         <p>{title}</p>
     </div>

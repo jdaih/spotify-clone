@@ -32,27 +32,19 @@ const Container = styled.div`
   .body {
     background-color: rgb(28,28,28);
     color: #b3b3b3;
-    height: 100vh;
+    height: 100;
     padding: 30px;
     flex: 0.8;
-
   }
+
   .sidebar{
     background-color: black;
     color: #b3b3b3;
-    height: 100vh;
+    height: 100%;
     min-width: 210px;
     padding-left: 10px;
     padding-right: 10px;
     flex: 0.2;
-  }
-  .footer {
-    position:fixed;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    background-color: #282828;
-    padding: 20px;
   }
   .sidebar_logo img{
     margin-right: auto;
@@ -83,4 +75,16 @@ const Container = styled.div`
     margin-left: 20px;
     font-size:14px;
   }
+
+  .footer {
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 60px;
+    width: 97%;
+    background-color: #282828;
+    padding: 20px;
+  }
+  
 `
