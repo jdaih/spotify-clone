@@ -1,5 +1,5 @@
 ## Project Description 
-Spotify is a popular audio streaming service with over 422 million active users. This project will be a simplified front-end clone of the Spotify player that has the ability to login users and get data of their playlists. 
+Spotify is a popular audio streaming service with over 422 million active users. This project is be a simplified front-end clone of the Spotify player that has the ability to login users and get data of their playlists. 
 
 ## Netlify Deployment
 https://daih-spotify-clone.netlify.app
