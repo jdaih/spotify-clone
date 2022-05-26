@@ -7,9 +7,11 @@ const Footer = () =>{
             <div className='footer_left'>
                 <p> Album / Song </p>
             </div>
+
             <div className='footer_center'>
                <PlayCircleIcon/>
             </div>
+            
             <div className='footer_right'>
                  <p> Volume Slider </p>
             </div>

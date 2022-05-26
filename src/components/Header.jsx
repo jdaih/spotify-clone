@@ -13,6 +13,7 @@ const Header = () => {
               placeholder='Search for songs, artists, etc.'
               type = 'text' />
         </div>
+        
         <div className='header_right'>
             <h4> {user?.display_name}</h4> 
         </div>
