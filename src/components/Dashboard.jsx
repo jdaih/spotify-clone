@@ -81,7 +81,7 @@ const Container = styled.div`
     display:flex;
     justify-content: space-between;
     bottom: 0;
-    height: 60px;
+    height: 50px;
     width: 97%;
     background-color: #282828;
     padding: 20px;

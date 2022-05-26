@@ -11,10 +11,13 @@ const Footer = () =>{
                <PlayCircleIcon/>
             </div>
             <div className='footer_right'>
-                 <p> Player controls </p>
+                 <p> Volume Slider </p>
             </div>
         </div>
     )
 }
 
 export default Footer
+
+
+////////// Look up spotify music player api
