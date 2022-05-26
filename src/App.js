@@ -38,7 +38,7 @@ function App() {
   // console.log(token)
 
   return (
-    <div className="App">
+    <div className="app">
       {token ? <Dashboard spotify={spotify} /> : (<Login />)}
     </div>
   );
