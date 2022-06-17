@@ -31,7 +31,7 @@ https://daih-spotify-clone.netlify.app
 - All of the possible links are purely cosmetic
 
 
-### Stretch Goals
+## Stretch Goals
 1. Functional music player with ability to pause, skip, and rewind
 2. Original functionality of Spotify (ex. Liking tracks) 
 3. Functional search bar that can find songs, artists, etc.
